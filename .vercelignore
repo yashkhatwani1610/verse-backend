@@ -1,0 +1,78 @@
+# Large folders (identified in project)
+venv/
+outputs/
+legacy/
+IDM-VTON/
+
+# Python backend files (not needed for frontend deployment)
+*.py
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Virtual try-on models and data
+models/
+checkpoints/
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.h5
+*.pb
+
+# Large data files
+*.zip
+*.tar.gz
+*.rar
+garment_images/
+person_images/
+output/
+results/
+
+# Node modules (will be installed during build)
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Documentation (not needed for deployment)
+*.md
+!website/README.md
+
+# Test files
+test_*.py
+*_test.py
+tests/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
