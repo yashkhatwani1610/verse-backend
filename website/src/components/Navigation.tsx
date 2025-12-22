@@ -16,7 +16,7 @@ const Navigation = () => {
     ];
 
     const quickLinks = [
-        { path: '/virtual-tryon', label: 'Virtual Try-On', icon: Sparkles },
+        { path: '/virtual-try-on', label: 'Virtual Try-On', icon: Sparkles },
         { path: '/track-order', label: 'Track Order' },
     ];
 
