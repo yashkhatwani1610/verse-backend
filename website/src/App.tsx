@@ -16,7 +16,7 @@ function App() {
         <Route path="/" element={<Index />} />
         <Route path="/products" element={<Products />} />
         <Route path="/checkout" element={<Checkout />} />
-        <Route path="/virtual-tryon" element={<VirtualTryOn />} />
+        <Route path="/virtual-try-on" element={<VirtualTryOn />} />
         <Route path="/track-order" element={<OrderTracking />} />
         <Route path="/about" element={<About />} />
       </Routes>
