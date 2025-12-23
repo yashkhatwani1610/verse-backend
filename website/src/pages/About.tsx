@@ -66,20 +66,7 @@ const About = () => {
                             <p className="text-lg text-gray-600 leading-relaxed mb-8">
                                 Today, with twenty-five years of sound experience backing them, Veenar Fashions has grown to be a <span className="font-bold text-peach-600">$5 million company</span>, with one full-fledged manufacturing unit, Far East Fashion Gear. Though Veenar caters to a discerning clientele worldwide, it continues to retain all the old-world values and commitment of a family-owned concern.
                             </p>
-                            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
-                                <div className="p-4 bg-gray-50 rounded-xl">
-                                    <div className="text-peach-500 font-bold text-xl mb-1">25+ Years</div>
-                                    <div className="text-sm text-gray-500">Experience</div>
-                                </div>
-                                <div className="p-4 bg-gray-50 rounded-xl">
-                                    <div className="text-peach-500 font-bold text-xl mb-1">$5 Million</div>
-                                    <div className="text-sm text-gray-500">Annual Turnover</div>
-                                </div>
-                                <div className="p-4 bg-gray-50 rounded-xl">
-                                    <div className="text-peach-500 font-bold text-xl mb-1">Global</div>
-                                    <div className="text-sm text-gray-500">Clientele</div>
-                                </div>
-                            </div>
+
                         </div>
 
                         {/* Verse Brand */}

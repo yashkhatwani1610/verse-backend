@@ -37,7 +37,7 @@ const Index = () => {
                             VERSE
                         </h1>
                         <p className="text-xl sm:text-2xl md:text-3xl font-light mb-8 sm:mb-12 tracking-[0.2em] sm:tracking-[0.3em] text-gray-700 uppercase">
-                            Premium Fashion
+                            Freedom in Fashion
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <Link to="/products">
