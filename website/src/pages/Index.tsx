@@ -36,9 +36,13 @@ const Index = () => {
                         <h1 className="text-6xl sm:text-7xl md:text-9xl font-bold mb-6 sm:mb-8 tracking-tighter text-gray-900">
                             VERSE
                         </h1>
-                        <p className="text-2xl sm:text-3xl md:text-4xl font-light italic mb-8 sm:mb-12 tracking-[0.15em] sm:tracking-[0.2em] text-transparent bg-clip-text bg-gradient-to-r from-gray-700 via-peach-600 to-gray-700 drop-shadow-sm">
-                            Freedom in Fashion
-                        </p>
+                        <div className="relative inline-block mb-8 sm:mb-12">
+                            <div className="absolute -left-8 top-1/2 -translate-y-1/2 w-6 h-0.5 bg-gradient-to-r from-transparent to-peach-400"></div>
+                            <p className="text-3xl sm:text-4xl md:text-5xl font-serif italic mb-0 tracking-wide text-peach-600 px-4" style={{ fontFamily: "'Playfair Display', serif" }}>
+                                Freedom in Fashion
+                            </p>
+                            <div className="absolute -right-8 top-1/2 -translate-y-1/2 w-6 h-0.5 bg-gradient-to-l from-transparent to-peach-400"></div>
+                        </div>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <Link to="/products">
                                 <Button size="lg" className="px-8 sm:px-12 py-5 sm:py-6 text-base sm:text-lg w-full sm:w-auto">
