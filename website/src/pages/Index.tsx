@@ -36,7 +36,7 @@ const Index = () => {
                         <h1 className="text-6xl sm:text-7xl md:text-9xl font-bold mb-6 sm:mb-8 tracking-tighter text-gray-900">
                             VERSE
                         </h1>
-                        <p className="text-xl sm:text-2xl md:text-3xl font-light mb-8 sm:mb-12 tracking-[0.2em] sm:tracking-[0.3em] text-gray-700 uppercase">
+                        <p className="text-2xl sm:text-3xl md:text-4xl font-light italic mb-8 sm:mb-12 tracking-[0.15em] sm:tracking-[0.2em] text-transparent bg-clip-text bg-gradient-to-r from-gray-700 via-peach-600 to-gray-700 drop-shadow-sm">
                             Freedom in Fashion
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
